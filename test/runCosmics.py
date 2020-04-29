@@ -14,7 +14,7 @@ process.GlobalTag.globaltag = '94X_mc2017_realistic_v12'  # or some other global
 process.load("MyAnalysis.CosmicAnalyzer.CosmicAnalyzer_cff")
 
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(

@@ -13,6 +13,7 @@
 <use name="DataFormats/VertexReco"/>
 <use name="SimDataFormats/GeneratorProducts"/>
 <use name="DataFormats/BeamSpot"/>
+<use name="DataFormats/MuonReco"/>
 <use name="TrackingTools/TrackRefitter"/>
 <use name="TrackingTools/TransientTrack"/>
 <use name="TrackingTools/TrajectoryState"/>
